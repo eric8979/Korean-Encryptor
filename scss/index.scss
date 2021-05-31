@@ -1,4 +1,57 @@
-body {
-  margin: 0;
+@import 'config';
+@import 'checkbox';
+
+.container {
+  margin: 0 auto;
   padding: 0;
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // delete line below
+  border: 1px solid;
+
+  .content {
+    width: 95%;
+  }
 }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .link-btn {
+    margin-right: 1rem;
+  }
+}
+
+.settings {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1.2rem 0 1.2rem 0;
+
+  span {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+
+  .checkboxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .checkbox {
+      margin: 0 1rem 0 1rem;
+
+      input {
+      }
+    }
+  }
+}
+
+@import 'box';

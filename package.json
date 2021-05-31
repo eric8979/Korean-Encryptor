@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/eric8979/Korean-Encryptor#readme",
   "devDependencies": {
+    "sass": "^1.34.0",
     "typescript": "^4.3.2"
   }
 }

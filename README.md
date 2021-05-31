@@ -1,4 +1,4 @@
-# KR-Encryptor
+# KR-Encryptor (Project 휸맨쩡옴)
 
 "Kr-ecryptor" is a website to help user encrypt Korean in their own unique ways.
 
